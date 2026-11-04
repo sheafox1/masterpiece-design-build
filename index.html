@@ -464,7 +464,7 @@ function contactStep(q, sub, extra, cta){
       .concat([{n:'email',l:'Email address',t:'email',p:'you@email.com'},{n:'phone',l:'Mobile phone',t:'tel',p:'(772) 555-0123'}]),
     cta:cta||'Book a Consultation', ctaSub:'Our team will follow up to schedule your consultation.' };
 }
-const BORROWER_CONTACT = contactStep('Where should we reach you?', 'We serve Stuart, Palm City, Hobe Sound, Jupiter Island, Sewall's Point, Hutchinson Island and the Treasure Coast.', [{n:'location',l:'City or community',t:'text',p:'e.g. Stuart'}]);
+const BORROWER_CONTACT = contactStep('Where should we reach you?', 'We serve Stuart, Palm City, Hobe Sound, Jupiter Island, Sewall’s Point, Hutchinson Island and the Treasure Coast.', [{n:'location',l:'City or community',t:'text',p:'e.g. Stuart'}]);
 
 const GOAL = { key:'goal', q:'What matters most to you?', cols:2, options:['A custom home', 'A whole-home renovation', 'One accountable team', 'Historic character kept'] };
 const BUDGET_0 = { key:'budget', q:'About what investment are you planning?', cols:2, options:['Under $1.5M', '$1.5M to $3M', '$3M to $6M', 'Over $6M'] };
